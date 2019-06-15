@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+}
+
+header{
+  height: 100px;
+  background-color: black;
+  float: raight;
+}
+
+.headimg{
+  height:100px;
+  float: right;
+  margin-right: 50px;
+}
+
+.topwrapper{
+ background: url(../free-bar-vector.png);
+ background-size: cover;
+ height: 1700px;
+  opacity: 0.7;
+}
+
+.select{
+  padding-top: 500px;
+  width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.btn{
+font-size: 40px;
+line-height: 100px;
+font-weight: bold;
+color: blue;
+}
+
+.line{
+  width:100px;
+  height:1700px;
+  background-color:orange;
+  opacity:0.9;
+  position: absolute;
+  top:0;
+  left:-40px;
+  z-index: -1;
+}
+
+footer{
+ margin-top: 650px;
+}
+
+.u{
+  width:1500px;
+  margin: 0 auto;
+}
+
+.message{
+  position: absolute;
+  top: 450px;
+  right: -362px;
+  width: 1350px;
+  height:500px;
+  background-color: gray;
+}
+
+.message::before{
+  content:'';
+  position: absolute;
+  left:-150px;
+  bottom:0 ;
+  display: inline-block;
+  width: 1500px;
+  height: 5px;
+  background-color: red;
+}
+
+.g{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 1200px;
+  height:400px;
+
+}
+.w{
+  font-size: 70px;
+  color: yellow;
+    word-wrap: break-word;
+}
+.r ,.q{
+  font-size: 40px;
+  word-wrap: break-word;
+}
+
+.newsmm{
+  position: absolute;
+  top: 450px;
+  right: -362px;
+  width: 1350px;
+  background-color: gray;
+}
